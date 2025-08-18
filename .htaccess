@@ -1,0 +1,37 @@
+RewriteEngine On
+RewriteBase /
+
+# Prevent infinite loops
+RewriteCond %{ENV:REDIRECT_STATUS} ^$
+
+# Prevent rewrite for real files and directories
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# Exclude static asset directories and CRM from rewriting
+RewriteCond %{REQUEST_URI} !^/(assets|anwendungen|logos|styles|js|css|CRM)/ [NC]
+# Exclude mailto:, tel:, external URLs, and domain-like strings from rewriting
+RewriteCond %{REQUEST_URI} !^(mailto:|tel:|http://|https://|[\w-]+\.[\w.-]+) [NC]
+
+# Rewrite rule for /en/Used (English version, specific rule for "used")
+RewriteRule ^en/Used/?$ en/used-equipment.php?category=Used [L,NC]
+RewriteRule ^en/Used/([a-zA-Z0-9-]+)/?$ en/used-equipment.php?category=used&product=$1 [L,NC]
+
+# Rewrite rules for other categories in /en/ (English version, general rule)
+RewriteRule ^en/([a-zA-Z0-9-]+)/?$ en/product.php?category=$1 [L,NC]
+RewriteRule ^en/([a-zA-Z0-9-]+)/([a-zA-Z0-9-]+)/?$ en/product.php?category=$1&product=$2 [L,NC]
+
+# Rewrite rules for gebrauchte_anlagen.php (German, direct access for Gebraucht)
+RewriteRule ^Gebraucht/?$ gebrauchte-anlagen.php?category=Gebraucht [L,NC]
+RewriteRule ^Gebraucht/([a-zA-Z0-9-]+)/?$ gebrauchte-anlagen.php?category=Gebraucht&product=$1 [L,NC]
+
+# Rewrite rules for product.php (German, other categories)
+RewriteCond %{REQUEST_URI} !^/Gebraucht [NC]
+RewriteCond %{REQUEST_URI} !^/en/ [NC]
+RewriteRule ^([a-zA-Z0-9-]+)/?$ product.php?category=$1 [L,NC]
+RewriteRule ^([a-zA-Z0-9-]+)/([a-zA-Z0-9-]+)/?$ product.php?category=$1&product=$2 [L,NC]
+
+# MIME types
+AddType image/svg+xml .svg
+AddType image/png .png
+AddType image/jpeg .jpg

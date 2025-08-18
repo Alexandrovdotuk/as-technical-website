@@ -1,0 +1,469 @@
+/* styles.css */
+
+/* Allgemeine Stile */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* Container-Stile */
+.product-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+    background-color: transparent;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Produktbild-Sektion */
+.product-image {
+    padding: 20px;
+    width: 100%;
+    max-width: 350px;
+    position: sticky;
+    top: 70px;
+    align-self: flex-start;
+    box-sizing: border-box;
+}
+
+/* Swiper-Stile */
+.swiper {
+    width: 100%;
+    height: auto;
+    background: transparent;
+    box-sizing: border-box;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.swiper-slide img {
+    display: block;
+    max-width: 250px;
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+.swiper-slide iframe,
+.swiper-slide video {
+    width: 100%;
+    max-width: 100%;
+    height: 200px;
+    box-sizing: border-box;
+}
+
+/* Thumbnail-Stile */
+.thumbnail-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    flex-wrap: wrap;
+    gap: 5px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.thumbnail {
+    margin: 3px;
+    cursor: pointer;
+}
+
+.thumbnail img {
+    width: 50px !important;
+    height: auto !important;
+    max-width: 50px !important;
+    transform: scale(1);
+    transition: transform 0.3s ease;
+}
+
+.thumbnail img:hover {
+    transform: scale(1.5);
+}
+
+/* Bild-Overlay */
+#image-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    justify-content: center;
+    align-items: center;
+    z-index: 2000;
+    box-sizing: border-box;
+}
+
+#image-overlay.active {
+    display: flex;
+}
+
+#image-overlay img,
+#image-overlay video {
+    max-width: 90%;
+    max-height: 90%;
+    width: auto;
+    height: auto;
+}
+
+/* Produktinfo-Sektion */
+.product-info {
+    flex: 1;
+    min-width: 300px;
+    width: 100%;
+    color: white;
+    box-sizing: border-box;
+}
+
+.product-info h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #fff;
+}
+
+.product-info h3 {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #ff9900;
+}
+
+.product-info h4 {
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #ff9900;
+}
+
+.product-info p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.product-info ul {
+    margin: 10px 0 20px 20px;
+    text-align: left;
+}
+
+.product-info li {
+    margin-bottom: 10px;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Akkordeon-Stile */
+.accordion {
+    width: 100%;
+    max-width: 600px;
+    margin: 10px 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.accordion-item {
+    margin-bottom: 5px;
+}
+
+.accordion-header {
+    width: 100%;
+    padding: 10px;
+    background: linear-gradient(45deg, #1a2526, #0073e6);
+    color: rgb(255, 255, 255);
+    border: none;
+    text-align: left;
+    font-size: clamp(14px, 1vw, 16px);
+    font-weight: 600;
+    cursor: pointer;
+    outline: none;
+    transition: 0.5s ease;
+}
+
+.accordion-header:hover {
+    background: linear-gradient(45deg, rgb(13, 21, 21), rgb(0, 37, 73));
+    transition: 0.5s;
+}
+
+.accordion-header::after {
+    content: '\25BC';
+    float: right;
+    font-size: 12px;
+}
+
+.accordion-header.active::after {
+    content: '\25B2';
+}
+
+.accordion-content {
+    display: none;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    color: white;
+    font-size: clamp(12px, 1vw, 14px);
+    border-bottom: 1px solid #079ae3;
+}
+
+.accordion-content ul {
+    list-style: disc;
+    padding-left: 20px;
+    margin: 0;
+}
+
+.accordion-content li {
+    margin-bottom: 5px;
+    color: black;
+    font-size: 16px;
+}
+
+.accordion-content strong {
+    color: linear-gradient(45deg, #1a2526, #0073e6);
+}
+
+/* Produktnavigation */
+.product-nav {
+    background-color: #1a1a1a;
+    padding: 15px;
+    margin: 20px 0;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.product-nav h3 {
+    color: white;
+    margin-bottom: 10px;
+}
+
+.product-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.product-nav li {
+    display: inline;
+}
+
+.product-nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 8px 15px;
+    background-color: #2a2a2a;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.product-nav a:hover {
+    background-color: #355e8b;
+    color: #ffffff;
+}
+
+/* Artikelgruppen */
+.article-group {
+    margin-top: 40px;
+    padding-top: 20px;
+    border-top: 2px solid #4a4a4a;
+}
+
+.article-group h2 {
+    color: #1a3c5e;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Breadcrumb */
+.breadcrumb {
+    margin: 20px 0;
+    font-size: 14px;
+}
+
+.breadcrumb a {
+    color: #355e8b;
+    text-decoration: none;
+}
+
+.breadcrumb a:hover {
+    text-decoration: underline;
+}
+
+.breadcrumb span {
+    color: #333;
+}
+
+/* Einführung */
+.category-intro {
+    padding: 20px;
+    background: linear-gradient(45deg, #1a2526, #0073e6);
+    border-radius: 5px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.category-intro h1 {
+    color: white;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.category-intro p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: white;
+}
+
+/* Leistungen-Sektion */
+.leistungen {
+    padding: 20px;
+    text-align: center;
+    color: white;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.leistungen h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #ff9900;
+}
+
+.leistungen p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+/* Tabellen-Stile */
+table {
+    width: 100%;
+    max-width: 100%;
+    border-collapse: collapse;
+    margin: 15px 0;
+    border: 1px solid #4a4a4a;
+    box-sizing: border-box;
+    overflow-x: auto;
+    display: block;
+}
+
+th,
+td {
+    border: 1px solid rgb(255, 255, 255);
+    padding: 10px;
+    text-align: left;
+    color: white;
+    font-size: 14px;
+    word-break: break-word;
+    box-sizing: border-box;
+}
+
+th {
+    background-color: #1a3c5e;
+    font-weight: bold;
+}
+
+td {
+    background-color: #1c1c1c;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #2a2a2a;
+}
+
+tbody tr:hover {
+    background-color: #355e8b;
+}
+
+/* Sold Overlay */
+.sold-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-45deg);
+    color: red;
+    font-size: 60px;
+    font-weight: bold;
+    text-transform: uppercase;
+    opacity: 0.8;
+    pointer-events: none;
+    z-index: 10;
+}
+
+/* Responsives Design */
+@media screen and (max-width: 768px) {
+    .product-container {
+        flex-direction: column;
+        padding: 15px;
+    }
+
+    .product-image {
+        max-width: 100%;
+        padding: 10px;
+        position: static;
+    }
+
+    .product-info {
+        min-width: 100%;
+    }
+
+    .swiper-slide img {
+        max-width: 200px;
+        align-items: center;
+    }
+
+    .swiper-slide iframe,
+    .swiper-slide video {
+        height: 150px;
+    }
+
+    table {
+        font-size: 12px;
+    }
+
+    th,
+    td {
+        padding: 8px;
+    }
+
+    .leistungen {
+        padding: 15px;
+    }
+
+    .leistungen h2 {
+        font-size: 20px;
+    }
+
+    .leistungen p {
+        font-size: 14px;
+    }
+
+    .accordion-header {
+        font-size: 12px;
+        padding: 8px;
+    }
+
+    .accordion-content {
+        font-size: 10px;
+        padding: 8px;
+    }
+}

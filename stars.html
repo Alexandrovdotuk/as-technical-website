@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stars</title>
+
+    <canvas id="starfield"></canvas>
+
+
+    <script>
+        const canvas = document.getElementById('starfield');
+        const ctx = canvas.getContext('2d');
+
+        // Setze die Canvas-Größe auf die Fenstergröße
+        function resizeCanvas() {
+            canvas.width = window.innerWidth;
+            canvas.height = window.innerHeight;
+        }
+        resizeCanvas();
+
+        // Aktualisiere die Canvas-Größe bei Fensteränderung
+        window.addEventListener('resize', resizeCanvas);
+
+        // Stern-Klasse
+        class Star {
+            constructor(x, y, radius, opacity, twinkleSpeed) {
+                this.x = x;
+                this.y = y;
+                this.radius = radius;
+                this.opacity = opacity;
+                this.twinkleSpeed = twinkleSpeed;
+                this.opacityDirection = Math.random() < 0.5 ? -1 : 1;
+            }
+
+            draw() {
+                ctx.beginPath();
+                ctx.arc(this.x, this.y, this.radius, 0, Math.PI * 2);
+                ctx.fillStyle = `rgba(255, 255, 255, ${this.opacity})`;
+                ctx.fill();
+            }
+
+            update() {
+                this.opacity += this.twinkleSpeed * this.opacityDirection;
+                if (this.opacity <= 0.2 || this.opacity >= 1) {
+                    this.opacityDirection *= -1;
+                }
+                this.draw();
+            }
+        }
+
+        // Sternschnuppen-Klasse
+        class ShootingStar {
+            constructor() {
+                this.reset();
+            }
+
+            reset() {
+                this.x = Math.random() * canvas.width;
+                this.y = Math.random() * canvas.height / 2; // Sternschnuppen kommen aus der oberen Hälfte des Canvas
+                this.len = (Math.random() * 80) + 10;
+                this.speed = (Math.random() * 15) + 5;
+
+                // Zufälliger Winkel zwischen 30 Grad (π/6) und 60 Grad (π/3)
+                const minAngle = Math.PI / 6; // 30 Grad
+                const maxAngle = Math.PI / 3; // 60 Grad
+                this.angle = Math.random() * (maxAngle - minAngle) + minAngle;
+
+                this.opacity = 1;
+                this.fade = (Math.random() * 0.015) + 0.003;
+            }
+
+            draw() {
+                ctx.beginPath();
+                ctx.moveTo(this.x, this.y);
+                ctx.lineTo(
+                    this.x - this.len * Math.cos(this.angle),
+                    this.y - this.len * Math.sin(this.angle)
+                );
+                ctx.strokeStyle = `rgba(255, 255, 255, ${this.opacity})`;
+                ctx.lineWidth = 2;
+                ctx.stroke();
+            }
+
+            update() {
+                // Bewegungsrichtung umkehren: Addieren statt Subtrahieren
+                this.x += this.speed * Math.cos(this.angle);
+                this.y += this.speed * Math.sin(this.angle);
+
+                this.opacity -= this.fade;
+                this.draw();
+
+                // Wenn die Sternschnuppe aus dem Bildschirm ist oder vollständig verblasst ist, zurücksetzen
+                if (this.opacity <= 0 || this.x > canvas.width || this.y > canvas.height) {
+                    return true; // Signalisiert, dass die Sternschnuppe zurückgesetzt werden soll
+                }
+                return false; // Sternschnuppe ist noch aktiv
+            }
+        }
+
+        // Initialisiere Sterne
+        const stars = [];
+        const starCount = 100;
+
+        for (let i = 0; i < starCount; i++) {
+            const x = Math.random() * canvas.width;
+            const y = Math.random() * canvas.height;
+            const radius = Math.random() * 1.2;
+            const opacity = Math.random() * 0.5 + 0.5;
+            const twinkleSpeed = Math.random() * 0.02 + 0.005;
+            stars.push(new Star(x, y, radius, opacity, twinkleSpeed));
+        }
+
+        // Initialisiere eine einzelne Sternschnuppe
+        let shootingStar = null;
+
+        // Funktion zum Erstellen einer neuen Sternschnuppe
+        function createShootingStar() {
+            shootingStar = new ShootingStar();
+        }
+
+        // Erstelle die erste Sternschnuppe beim Start
+        createShootingStar();
+
+        // Optional: Füge eine minimale Verzögerung zwischen den Sternschnuppen hinzu
+        const minInterval = 2000; // Mindestintervall von 2 Sekunden
+        const maxInterval = 5000; // Maximalintervall von 5 Sekunden
+        let nextShootingStarTime = Date.now() + getRandomInterval();
+
+        function getRandomInterval() {
+            return Math.random() * (maxInterval - minInterval) + minInterval;
+        }
+
+        function animate() {
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+            // Zeichne und aktualisiere Sterne
+            stars.forEach(star => star.update());
+
+            const currentTime = Date.now();
+
+            // Starte eine neue Sternschnuppe basierend auf dem Intervall
+            if (!shootingStar && currentTime >= nextShootingStarTime) {
+                createShootingStar();
+                // Setze das nächste Intervall
+                nextShootingStarTime = currentTime + getRandomInterval();
+            }
+
+            // Zeichne und aktualisiere die Sternschnuppe
+            if (shootingStar) {
+                const done = shootingStar.update();
+                if (done) {
+                    shootingStar = null; // Entferne die aktuelle Sternschnuppe
+                }
+            }
+
+            requestAnimationFrame(animate);
+        }
+
+        animate();
+
+
+        // Header größe Änderung
+        window.addEventListener('scroll', function() {
+            const header = document.getElementById('header');
+            const logo = header.querySelector('.nav-logo');
+            const textElements = header.querySelectorAll('.nav-link-dropdown-toggle'); // Alle Elemente mit der Klasse .nav-link-dropdown-toggle auswählen
+            const text = header.querySelector('.nav-link'); // Alle Elemente mit der Klasse .nav-link-dropdown-toggle auswählen
+            const scrollPosition = window.scrollY || window.pageYOffset;
+
+            if (scrollPosition > 100) {
+                header.style.height = '50px';
+                logo.style.height = '40px';
+                textElements.forEach(function(text) {
+                    text.style.fontSize = '14px'; // Neue Schriftgröße für alle Elemente mit der Klasse .nav-link-dropdown-toggle
+                });
+            } else {
+                header.style.height = '60px';
+                logo.style.height = '50px';
+                textElements.forEach(function(text) {
+                    text.style.fontSize = '17px'; // Standard-Schriftgröße für alle Elemente mit der Klasse .nav-link-dropdown-toggle
+                });
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+
+
+</body>
+
+<style>
+    /* STARS */
+
+    /* Stelle sicher, dass der Body keine Abstände hat und das Canvas den gesamten Bildschirm einnimmt */
+
+
+    /* Das Canvas-Element */
+    #starfield {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: black;
+        z-index: -1;
+        /* Hinter allen anderen Inhalten platzieren */
+    }
+</style>
+
+</html>

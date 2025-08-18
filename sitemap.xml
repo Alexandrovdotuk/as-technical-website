@@ -1,0 +1,637 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <!-- Deutsche Startseite -->
+  <url>
+    <loc>https://as-technical.de/</loc>
+    <lastmod>2025-04-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="de" href="https://as-technical.de/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://as-technical.de/en/" />
+  </url>
+  <!-- Englische Startseite -->
+  <url>
+    <loc>https://as-technical.de/en/</loc>
+    <lastmod>2025-04-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="de" href="https://as-technical.de/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://as-technical.de/en/" />
+  </url>
+  <!-- Deutsche Seite: Dienstleistungen -->
+  <url>
+    <loc>https://as-technical.de/dienstleistungen</loc>
+    <lastmod>2025-04-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="de" href="https://as-technical.de/dienstleistungen" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://as-technical.de/en/our-services" />
+  </url>
+  <!-- Englische Seite: Service -->
+  <url>
+    <loc>https://as-technical.de/en/our-services</loc>
+    <lastmod>2025-04-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="de" href="https://as-technical.de/dienstleistungen" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://as-technical.de/en/our-services" />
+  </url>
+  <!-- Deutsche Seite: Lexikon -->
+  <url>
+    <loc>https://as-technical.de/lexikon</loc>
+    <lastmod>2025-04-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="de" href="https://as-technical.de/lexikon" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://as-technical.de/en/glossary" />
+  </url>
+  <!-- Englische Seite: Lexicon -->
+  <url>
+    <loc>https://as-technical.de/en/glossary</loc>
+    <lastmod>2025-04-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="de" href="https://as-technical.de/lexikon" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://as-technical.de/en/glossary" />
+  </url>
+  <!-- Deutsche Seite: Gebrauchte Anlagen -->
+  <url>
+    <loc>https://as-technical.de/gebraucht</loc>
+    <lastmod>2025-04-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="de" href="https://as-technical.de/gebraucht" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://as-technical.de/en/used" />
+  </url>
+  <!-- Englische Seite: Used Equipment -->
+  <url>
+    <loc>https://as-technical.de/en/used</loc>
+    <lastmod>2025-04-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="de" href="https://as-technical.de/gebraucht" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://as-technical.de/en/used" />
+  </url>
+  <!-- Deutsche Seite: Gebrauchte Injektor -->
+  <url>
+    <loc>https://as-technical.de/gebrauchte-injektor</loc>
+    <lastmod>2025-04-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="de" href="https://as-technical.de/gebrauchte-injektor" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://as-technical.de/en/used-injectors" />
+  </url>
+  <!-- Englische Seite: Used injectors -->
+  <url>
+    <loc>https://as-technical.de/en/used-injectors</loc>
+    <lastmod>2025-04-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="de" href="https://as-technical.de/gebrauchte-injektor" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://as-technical.de/en/used-injectors" />
+  </url>
+  <!-- Deutsche Seite: Gebrauchte Fleischwolf -->
+  <url>
+    <loc>https://as-technical.de/gebrauchte-fleischwolf</loc>
+    <lastmod>2025-04-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="de" href="https://as-technical.de/gebrauchte-fleischwolf" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://as-technical.de/en/used-meat-grinders" />
+  </url>
+  <!-- Englische Seite: Used meat grinders -->
+  <url>
+    <loc>https://as-technical.de/en/used-meat-grinders</loc>
+    <lastmod>2025-04-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="de" href="https://as-technical.de/gebrauchte-fleischwolf" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://as-technical.de/en/used-meat-grinders" />
+  </url>
+  <!-- Deutsche Seite: Gebrauchte Feinkostmischer -->
+  <url>
+    <loc>https://as-technical.de/gebrauchte-feinkostmischer</loc>
+    <lastmod>2025-04-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="de" href="https://as-technical.de/gebrauchte-feinkostmischer" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://as-technical.de/en/used-delicatessen-mixers" />
+  </url>
+  <!-- Englische Seite: Used meat delicatessen mixers -->
+  <url>
+    <loc>https://as-technical.de/en/used-delicatessen_mixers</loc>
+    <lastmod>2025-04-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="de" href="https://as-technical.de/gebrauchte-feinkostmischer" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://as-technical.de/en/used-delicatessen_mixers" />
+  </url>
+  <!-- Deutsche Seite: Gebrauchte Abschwarter -->
+  <url>
+    <loc>https://as-technical.de/gebrauchte-abschwarter</loc>
+    <lastmod>2025-04-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="de" href="https://as-technical.de/gebrauchte-abschwarter" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://as-technical.de/en/used-derinders" />
+  </url>
+  <!-- Englische Seite: Used meat derinders -->
+  <url>
+    <loc>https://as-technical.de/en/used-derinders</loc>
+    <lastmod>2025-04-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="de" href="https://as-technical.de/gebrauchte-abschwarter" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://as-technical.de/en/used-derinders" />
+  </url>
+  <!-- Deutsche Seite: Abschwarter -->
+  <url>
+    <loc>https://as-technical.de/abschwarter</loc>
+    <lastmod>2025-04-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="de" href="https://as-technical.de/abschwarter" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://as-technical.de/en/derinding-machines" />
+  </url>
+  <!-- Englische Seite: Derinders -->
+  <url>
+    <loc>https://as-technical.de/en/derinders</loc>
+    <lastmod>2025-04-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="de" href="https://as-technical.de/abschwarter" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://as-technical.de/en/derinding-machines" />
+  </url>
+  <!-- Deutsche Seite: Feinkostmischer -->
+  <url>
+    <loc>https://as-technical.de/vakuummischer</loc>
+    <lastmod>2025-04-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="de" href="https://as-technical.de/vakuummischer" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://as-technical.de/en/fine-food-mixers" />
+  </url>
+  <!-- Englische Seite: Delicatessen Mixers -->
+  <url>
+    <loc>https://as-technical.de/en/delicatessen-mixers</loc>
+    <lastmod>2025-04-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="de" href="https://as-technical.de/vakuummischer" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://as-technical.de/en/fine-food-mixers" />
+  </url>
+  <!-- Deutsche Seite: Fleischwolf -->
+  <url>
+    <loc>https://as-technical.de/fleischwolf</loc>
+    <lastmod>2025-04-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="de" href="https://as-technical.de/fleischwolf" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://as-technical.de/en/mincers" />
+  </url>
+  <!-- Englische Seite: Meat Grinders -->
+  <url>
+    <loc>https://as-technical.de/en/mincers</loc>
+    <lastmod>2025-04-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="de" href="https://as-technical.de/fleischwolf" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://as-technical.de/en/mincers" />
+  </url>
+  <!-- Deutsche Seite: Pökelinjektor -->
+  <url>
+    <loc>https://as-technical.de/poekelinjektor</loc>
+    <lastmod>2025-04-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="de" href="https://as-technical.de/pökelinjektor" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://as-technical.de/en/brine-injectors" />
+  </url>
+  <!-- Englische Seite: Injectors -->
+  <url>
+    <loc>https://as-technical.de/en/brine-injectors</loc>
+    <lastmod>2025-04-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="de" href="https://as-technical.de/pökelinjektor" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://as-technical.de/en/brine-injectors" />
+  </url>
+  <!-- Deutsche Seite: Rauchanlagen -->
+  <url>
+    <loc>https://as-technical.de/rauchanlagen</loc>
+    <lastmod>2025-04-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="de" href="https://as-technical.de/rauchanlagen" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://as-technical.de/en/smoking-systems" />
+  </url>
+  <!-- Englische Seite: Smoking Systems -->
+  <url>
+    <loc>https://as-technical.de/en/smoking-systems</loc>
+    <lastmod>2025-04-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="de" href="https://as-technical.de/rauchanlagen" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://as-technical.de/en/smoking-systems" />
+  </url>
+  <!-- Deutsche Seite: Aufschnittschneidemaschine -->
+  <url>
+    <loc>https://as-technical.de/aufschnittschneidemaschine</loc>
+    <lastmod>2025-04-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="de" href="https://as-technical.de/aufschnittschneidemaschine" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://as-technical.de/en/slicers" />
+  </url>
+  <!-- Englische Seite: Slicers -->
+  <url>
+    <loc>https://as-technical.de/en/slicers</loc>
+    <lastmod>2025-04-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="de" href="https://as-technical.de/aufschnittschneidemaschine" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://as-technical.de/en/slicers" />
+  </url>
+  <!-- Deutsche Seite: Fleisch -->
+  <url>
+    <loc>https://as-technical.de/fleisch</loc>
+    <lastmod>2025-04-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="de" href="https://as-technical.de/fleisch" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://as-technical.de/en/meat" />
+  </url>
+  <!-- Englische Seite: Meat -->
+  <url>
+    <loc>https://as-technical.de/en/meat</loc>
+    <lastmod>2025-04-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="de" href="https://as-technical.de/fleisch" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://as-technical.de/en/meat" />
+  </url>
+  <!-- Deutsche Seite: Fisch -->
+  <url>
+    <loc>https://as-technical.de/fisch</loc>
+    <lastmod>2025-04-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="de" href="https://as-technical.de/fisch" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://as-technical.de/en/fish" />
+  </url>
+  <!-- Englische Seite: Fish -->
+  <url>
+    <loc>https://as-technical.de/en/fish</loc>
+    <lastmod>2025-04-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="de" href="https://as-technical.de/fisch" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://as-technical.de/en/fish" />
+  </url>
+  <!-- Deutsche Seite: Geflügel -->
+  <url>
+    <loc>https://as-technical.de/gefluegel</loc>
+    <lastmod>2025-04-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="de" href="https://as-technical.de/gefluegel" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://as-technical.de/en/poultry" />
+  </url>
+  <!-- Englische Seite: Poultry -->
+  <url>
+    <loc>https://as-technical.de/en/poultry</loc>
+    <lastmod>2025-04-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="de" href="https://as-technical.de/gefluegel" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://as-technical.de/en/poultry" />
+  </url>
+  <!-- Deutsche Seite: Käse -->
+  <url>
+    <loc>https://as-technical.de/kaese</loc>
+    <lastmod>2025-04-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="de" href="https://as-technical.de/kaese" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://as-technical.de/en/cheese" />
+  </url>
+  <!-- Englische Seite: Cheese -->
+  <url>
+    <loc>https://as-technical.de/en/cheese</loc>
+    <lastmod>2025-04-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="de" href="https://as-technical.de/kaese" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://as-technical.de/en/cheese" />
+  </url>
+  <!-- Deutsche Seite: Veggie -->
+  <url>
+    <loc>https://as-technical.de/vegan</loc>
+    <lastmod>2025-04-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="de" href="https://as-technical.de/vegan" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://as-technical.de/en/veggie" />
+  </url>
+  <!-- Englische Seite: Veggie -->
+  <url>
+    <loc>https://as-technical.de/en/veggie</loc>
+    <lastmod>2025-04-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="de" href="https://as-technical.de/vegan" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://as-technical.de/en/veggie" />
+  </url>
+  <!-- Deutsche Seite: Convenience -->
+  <url>
+    <loc>https://as-technical.de/convenience</loc>
+    <lastmod>2025-04-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="de" href="https://as-technical.de/convenience" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://as-technical.de/en/convenience" />
+  </url>
+  <!-- Englische Seite: Convenience -->
+  <url>
+    <loc>https://as-technical.de/en/convenience</loc>
+    <lastmod>2025-04-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="de" href="https://as-technical.de/convenience" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://as-technical.de/en/convenience" />
+  </url>
+  <!-- Deutsche Seite: Snacks -->
+  <url>
+    <loc>https://as-technical.de/snacks</loc>
+    <lastmod>2025-04-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="de" href="https://as-technical.de/snacks" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://as-technical.de/en/snacks" />
+  </url>
+  <!-- Englische Seite: Snacks -->
+  <url>
+    <loc>https://as-technical.de/en/snacks</loc>
+    <lastmod>2025-04-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="de" href="https://as-technical.de/snacks" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://as-technical.de/en/snacks" />
+  </url>
+  <!-- Deutsche Seite: Tiernahrung -->
+  <url>
+    <loc>https://as-technical.de/tiernahrung</loc>
+    <lastmod>2025-04-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="de" href="https://as-technical.de/tiernahrung" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://as-technical.de/en/pet-food" />
+  </url>
+  <!-- Englische Seite: Pet Food -->
+  <url>
+    <loc>https://as-technical.de/en/pet-food</loc>
+    <lastmod>2025-04-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="de" href="https://as-technical.de/tiernahrung" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://as-technical.de/en/pet-food" />
+  </url>
+  <!-- Deutsche Seite: Bandsägen -->
+  <url>
+    <loc>https://as-technical.de/bandsaegen</loc>
+    <lastmod>2025-04-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="de" href="https://as-technical.de/bandsägen" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://as-technical.de/en/bandsaws" />
+  </url>
+  <!-- Englische Seite: Bandsaws -->
+  <url>
+    <loc>https://as-technical.de/en/bandsaws</loc>
+    <lastmod>2025-04-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="de" href="https://as-technical.de/bandsägen" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://as-technical.de/en/bandsaws" />
+  </url>
+  <!-- Deutsche Seite: Konvektomat -->
+  <url>
+    <loc>https://as-technical.de/konvektomat</loc>
+    <lastmod>2025-04-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="de" href="https://as-technical.de/konvektomat" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://as-technical.de/en/convection-ovens" />
+  </url>
+  <!-- Englische Seite: Convection Ovens -->
+  <url>
+    <loc>https://as-technical.de/en/convection-ovens</loc>
+    <lastmod>2025-04-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="de" href="https://as-technical.de/konvektomat" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://as-technical.de/en/convection-ovens" />
+  </url>
+  <!-- Deutsche Seite: Kochessel -->
+  <url>
+    <loc>https://as-technical.de/kochessel</loc>
+    <lastmod>2025-04-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="de" href="https://as-technical.de/kochkessel" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://as-technical.de/en/cooking-kettles" />
+  </url>
+  <!-- Englische Seite: Cooking Kettles -->
+  <url>
+    <loc>https://as-technical.de/en/cooking-kettles</loc>
+    <lastmod>2025-04-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="de" href="https://as-technical.de/kochessel" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://as-technical.de/en/cooking-kettles" />
+  </url>
+  <!-- Deutsche Seite: Kühltechnik -->
+  <url>
+    <loc>https://as-technical.de/kuehltechnik</loc>
+    <lastmod>2025-04-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="de" href="https://as-technical.de/kühltechnik" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://as-technical.de/en/cooling-systems" />
+  </url>
+  <!-- Englische Seite: Cooling Systems -->
+  <url>
+    <loc>https://as-technical.de/en/cooling-systems</loc>
+    <lastmod>2025-04-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="de" href="https://as-technical.de/kühltechnik" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://as-technical.de/en/cooling-systems" />
+  </url>
+  <!-- Deutsche Seite: Cutter -->
+  <url>
+    <loc>https://as-technical.de/kutter</loc>
+    <lastmod>2025-04-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="de" href="https://as-technical.de/kutter" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://as-technical.de/en/cutters" />
+  </url>
+  <!-- Englische Seite: Cutters -->
+  <url>
+    <loc>https://as-technical.de/en/cutters</loc>
+    <lastmod>2025-04-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="de" href="https://as-technical.de/kutter" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://as-technical.de/en/cutters" />
+  </url>
+  <!-- Deutsche Seite: Waschautomaten -->
+  <url>
+    <loc>https://as-technical.de/waschautomaten</loc>
+    <lastmod>2025-04-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="de" href="https://as-technical.de/waschautomaten" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://as-technical.de/en/washing-machines" />
+  </url>
+  <!-- Englische Seite: Washing Machines -->
+  <url>
+    <loc>https://as-technical.de/en/washing-machines</loc>
+    <lastmod>2025-04-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="de" href="https://as-technical.de/waschautomaten" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://as-technical.de/en/washing-machines" />
+  </url>
+  <!-- Deutsche Seite: Impressum -->
+  <url>
+    <loc>https://as-technical.de/impressum</loc>
+    <lastmod>2025-04-27</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="de" href="https://as-technical.de/impressum" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://as-technical.de/en/imprint" />
+  </url>
+  <!-- Englische Seite: Imprint -->
+  <url>
+    <loc>https://as-technical.de/en/imprint</loc>
+    <lastmod>2025-04-27</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="de" href="https://as-technical.de/impressum" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://as-technical.de/en/imprint" />
+  </url>
+  <!-- Deutsche Seite: Datenschutz -->
+  <url>
+    <loc>https://as-technical.de/datenschutz</loc>
+    <lastmod>2025-04-27</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="de" href="https://as-technical.de/datenschutz" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://as-technical.de/en/privacy-policy" />
+  </url>
+  <!-- Englische Seite: Privacy Policy -->
+  <url>
+    <loc>https://as-technical.de/en/privacy-policy</loc>
+    <lastmod>2025-04-27</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="de" href="https://as-technical.de/datenschutz" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://as-technical.de/en/privacy-policy" />
+  </url>
+  <!-- Deutsche Seite: Kontaktformular -->
+  <url>
+    <loc>https://as-technical.de/kontaktformular</loc>
+    <lastmod>2025-04-27</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="de" href="https://as-technical.de/kontaktformular" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://as-technical.de/en/contact-form" />
+  </url>
+  <!-- Englische Seite: Contact Form -->
+  <url>
+    <loc>https://as-technical.de/en/contact-form</loc>
+    <lastmod>2025-04-27</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="de" href="https://as-technical.de/kontaktformular" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://as-technical.de/en/contact-form" />
+  </url>
+  <!-- Deutsche Seite: würstchentrennmaschine -->
+  <url>
+    <loc>https://as-technical.de/wuerstchentrennmaschine</loc>
+    <lastmod>2025-04-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="de" href="https://as-technical.de/würstchentrennmaschine" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://as-technical.de/en/sausage-separators" />
+  </url>
+  <!-- Englische Seite: sausage-separators -->
+  <url>
+    <loc>https://as-technical.de/en/sausage-separators</loc>
+    <lastmod>2025-04-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="de" href="https://as-technical.de/würstchentrennmaschine" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://as-technical.de/en/sausage-separators" />
+  </url>
+  <!-- Deutsche Seite: speckschneider -->
+  <url>
+    <loc>https://as-technical.de/speckschneider</loc>
+    <lastmod>2025-04-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="de" href="https://as-technical.de/speckschneider" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://as-technical.de/en/dicing-machines" />
+  </url>
+  <!-- Englische Seite: dicing-machines -->
+  <url>
+    <loc>https://as-technical.de/en/dicing-machines</loc>
+    <lastmod>2025-04-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="de" href="https://as-technical.de/speckschneider" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://as-technical.de/en/dicing-machines" />
+  </url>
+
+<!-- Deutsche Seite: darmschweißgerät -->
+  <url>
+    <loc>https://as-technical.de/darmschweissgeraet</loc>
+    <lastmod>2025-08-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="de" href="https://as-technical.de/darmschweissgeraet" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://as-technical.de/en/en/casing-sealer" />
+  </url>
+
+  <!-- Englische Seite: darmschweißgerät -->
+  <url>
+    <loc>https://as-technical.de/casing-sealer</loc>
+    <lastmod>2025-08-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="de" href="https://as-technical.de/darmschweissgeraet" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://as-technical.de/en/en/casing-sealer" />
+  </url>
+
+  <!-- Deutsche Seite: downloads -->
+  <url>
+    <loc>https://as-technical.de/downloads</loc>
+    <lastmod>2025-04-27</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="de" href="https://as-technical.de/downloads" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://as-technical.de/en/downloads" />
+  </url>
+  <!-- Englische Seite: downloads -->
+  <url>
+    <loc>https://as-technical.de/en/downloads</loc>
+    <lastmod>2025-04-27</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="de" href="https://as-technical.de/downloads" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://as-technical.de/en/downloads" />
+  </url>
+</urlset>

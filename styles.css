@@ -1,0 +1,872 @@
+/* Reset default margin and padding */
+h1,
+h2,
+p,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* Verhindert Überläufe durch Padding/Border */
+    font-family: 'Arial', sans-serif;
+
+
+
+
+}
+
+/* Basic styling Hintergrund überall */
+body {
+    font-family: Arial;
+
+}
+
+html::before {
+    content: ' ';
+    display: block;
+    /*     background-image: url("assets/handy.jpg");
+ */
+}
+
+
+
+
+.product-dropdown {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #000000;
+    /* Change the background color */
+    border: 0px solid #ccc;
+    box-shadow: 0 25px 39px rgba(30, 0, 255, 0.953);
+    border-top: none;
+    border-radius: 0 0 4px 4px;
+}
+
+a:hover {
+    color: red;
+    transition: 2s;
+}
+
+/* Show the product dropdown when the parent is hovered */
+.nav-item:hover .product-dropdown {
+    display: block;
+    background-color: black;
+    /* X */
+
+}
+
+.dropdown-item:hover {
+    background-color: #0087ca00;
+    color: white;
+}
+
+
+
+
+
+/* Style for product dropdown items */
+.product-dropdown li {
+    padding: 0px;
+}
+
+/* Unterpunkte von Header */
+.product-dropdown li a {
+    text-decoration: none;
+    color: #ffffff;
+    /* Change the text color */
+    font-size: clamp(20px, 2vw, 20px);
+}
+
+.navbar {
+    /* Menübar (header) oben */
+    display: flex;
+    /* flex */
+    justify-content: space-between;
+    align-items: center;
+    padding: 0rem 1.5rem;
+    /* 1rem 1.5rem */
+    background: #000000;
+}
+
+.navbar-kategorie {
+    /*  */
+    display: grid;
+    /* flex */
+    justify-content: space-between;
+    align-items: center;
+    padding: 0rem 1.5rem;
+    /* 1rem 1.5rem */
+    background: #000000;
+}
+
+
+
+
+
+
+/* Menübalken (oben rechts beim Handy) */
+.bar {
+    display: block;
+    /* block */
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: #079ae3;
+    z-index: 999;
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+.nav-menu-items {
+padding-left: 300px;}
+
+/* Menüpunkte Namen Header */
+.nav-link {
+    font-weight: 400;
+    color: linear-gradient(45deg, #1a2526, #0073e6);
+    transition: 1.3s;
+
+}
+
+.nav-link-dropdown-toggle {
+    transition: 0.5s;
+    font-size: 17px;
+
+
+}
+
+
+
+.nav-link:hover {
+    color: #079ae3;
+    /* Farbwechsel beim kliken auf Menüpunkte, handy */
+}
+
+.nav-logo {
+    height: 60px;
+    /* Standardgröße des Logos */
+    transition: 0.5s;
+    margin-top: 5px;
+
+
+
+
+}
+
+/* !!!!!!!!!!!!!!!!!!!!HEADER!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!     !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+header {
+    position: sticky;
+    /* fixed */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 70px;
+    /* 70px */
+    background-color: black;
+    transition: 0.5s, padding 0.5s;
+    z-index: 9999;
+}
+
+
+@media only screen and (max-width: 1824px) {
+    nav ul {
+        margin-right: 700px !important;
+    }
+}
+
+@media only screen and (max-width: 1724px) {
+    nav ul {
+        margin-right: 500px !important;
+    }
+
+}
+
+@media only screen and (max-width: 1524px) {
+    nav ul {
+        margin-right: 350px !important;
+    }
+}
+
+@media only screen and (max-width: 1377px) {
+
+    /* 1377px */
+    nav ul {
+        margin-right: 200px !important;
+    }
+
+    /* !important is needed sometimes */
+}
+
+/* Anzeige Größe änderung bei mobilen geräten bis 1223px!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+@media screen and (max-width: 1223px) {
+
+    html,
+    body {
+        overflow-x: hidden;
+        /* Verhindert horizontales Scrollen */
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        /* Verhindert Überläufe durch Padding/Border */
+    }
+
+    .hero-content {
+        z-index: 1;
+        text-align: center;
+        position: relative;
+        text-align: center;
+        padding: 50px 20px;
+        color: white;
+        background: linear-gradient(45deg, #1a2526, #0073e6);
+        border-radius: 10px;
+        margin: 20px;
+    }
+
+    .product-container {
+        display: flex;
+        align-items: center;
+        padding: 20px;
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+
+    .product-image {
+        padding: 20px;
+        width: 350px !important;
+        position: static !important;
+        top: 20px;
+        align-content: center;
+        align-self: start;
+    }
+
+    .product-image img {
+        width: 100px;
+        height: auto;
+    }
+
+
+
+    header {
+        position: static;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 30px;
+        background-color: black;
+        z-index: 999;
+    }
+
+    .nav-logo {
+        margin-left: 5px;
+    }
+
+    .img-left {
+        width: 300px;
+    }
+
+    .imp {
+        margin: 0 !important;
+        padding: 20px;
+    }
+
+    .video-background {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 50px;
+        height: 10px;
+        object-fit: cover;
+        z-index: -1;
+    }
+
+    .cox {
+        background-color: rgba(0, 0, 0, 0);
+        width: 100%;
+        border: 1px solid rgba(0, 0, 0, 0);
+        margin-bottom: 10px;
+    }
+
+    #small {
+        font-size: 20px;
+        display: block;
+    }
+
+    .featuresblue {
+        background-color: #b2741d;
+        border: 2px solid #079ae3;
+        border-radius: 30px;
+        margin: 5%;
+    }
+
+    .feature {
+        text-align: center;
+    }
+
+    .product-info h4 {
+        color: #079ae3;
+        font-size: 10px;
+        font-weight: 500;
+    }
+}
+
+#phoneview {
+    display: none;
+    /* none */
+}
+
+
+.featuresblue {
+    background-color: #b2741d;
+    border: 2px solid #079ae3;
+    border-radius: 30px;
+    margin: 5%;
+}
+
+
+
+
+@media only screen and (max-width: 770px) {
+    /* 770px */
+
+    #webview {
+        display: none;
+        /* none */
+
+    }
+
+    #phoneview {
+        display: block;
+        /* block */
+    }
+
+    .product-container {
+        margin-right: 0 !important;
+        margin-left: 0 !important;
+        display: grid !important;
+        max-width: 100%;
+    }
+
+
+    html::before {
+        content: ' ';
+        display: block;
+        background-image: url("assets/handy8.jpg");
+        background-position: center;
+        background-size: cover;
+        height: 100vh;
+        width: 100vw;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        position: fixed;
+        z-index: -10;
+    }
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+/* Apply basic styles to the container */
+.product-container {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    /* margin-left: auto; 
+     margin-right: auto; */
+    
+
+
+}
+
+
+
+/* Style the product image div */
+.product-image {
+    padding: 20px;
+    width: 600px;
+    position: sticky;
+    /* sticky */
+    top: 70px;
+    /* 70px */
+    align-items: center;
+    align-self: flex-start;
+
+}
+
+
+
+.product-image img {
+    width: auto;
+    /* max-width: 70%; */
+    height: auto;
+}
+
+/* Style the product information div */
+.product-info {
+    flex: 1;
+    /* Takes up 50% of the container */
+    padding: 20px;
+    background-color: #00000000;
+    color: white;
+}
+
+/* Textgröße p !!!!!!!!!!!!!!!!!!! Textgröße p !!!!!!!!!!!!!!!!!! Textgröße p !!!!!!!!!!!!!!!!*/
+
+
+.product-info p {
+    font-size: clamp(15px, 1vw, 25px);
+    margin-bottom: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 2.5em;
+    font-weight: 600;
+    color: #ffffff;
+
+}
+
+.product-info h2 {
+    font-size: 35px;
+    /* 35px */
+    margin-bottom: 10px;
+    color: #079ae3;
+    font-weight: 900;
+}
+
+
+
+
+
+.product-info h4 {
+    color: #079ae3;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+
+.hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+}
+
+.hamburger.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+}
+
+.hamburger.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+}
+
+.container {
+    border: #000000;
+}
+
+.logo img {
+    height: 120px;
+    /* Adjust as needed */
+    margin-left: 250px;
+}
+
+
+
+nav ul {
+    list-style: none;
+    display: flex;
+    font-size: 1.2rem;
+    margin-right: 800px;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    display: inline-block;
+    position: relative;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.4rem;
+}
+
+nav ul li a::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    /* 100% blauer Unterstrich beim Schweben über Menüpunkte */
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #0087ca;
+    transform-origin: bottom left;
+    transition: transform 0.5s ease-out;
+    /* Unterschtrich Einblendungsgeschwindigkeit */
+}
+
+nav ul li a:hover::after {
+    transform: scaleX(1);
+    /* (scalieren unterschtrich länge beim anwählen der Menüpunkte */
+    transform-origin: bottom left;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #313131;
+    padding: 10px;
+    min-width: 160px;
+    /* 160 */
+    box-shadow: 0px 8px 16px 0px rgba(17, 16, 16, 0.312);
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    position: absolute;
+}
+
+
+.video-background {
+    position: fixed;
+    /* absolute */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 950px;
+    /* video vertikale länge web/handy */
+    object-fit: cover;
+    /* cover */
+    z-index: -1;
+}
+
+.hero-content {
+    z-index: 1;
+    text-align: center;
+    position: relative;
+    text-align: center;
+    padding: 50px 20px;
+    color: white;
+    background: linear-gradient(45deg, #1a2526, #0073e6);
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.hero-content h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.hero-content h5 {
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+
+
+
+.hero h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+a {
+    color: White;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0087ca;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+/* Hover effect */
+.button:hover {
+    background-color: #2980b9;
+}
+
+/* Remove default link styles */
+.button:focus,
+.button:active {
+    outline: none;
+}
+
+
+.text-right {
+    color: white;
+    text-align: left !important;
+    font-size: 1.4rem;
+    padding: 12px;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #0087ca;
+    color: #000000;
+    /* white */
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 50px;
+    margin-top: 20px;
+}
+
+.features {
+    border-radius: 30px;
+}
+
+
+
+.feature {
+    margin-bottom: 10px;
+    text-align: center;
+
+}
+
+.feature h5 {
+    color: rgb(255, 255, 255);
+}
+
+.feature h6 {
+    margin-top: 5px;
+}
+
+.feature h6 strong {
+    margin-top: 5px;
+    color: rgb(0, 0, 0);
+
+}
+
+footer {
+    background-color: #00000000;
+    color: #ffffff;
+    /* Weiß */
+    text-align: center;
+    /* center */
+
+
+}
+
+
+
+swiper-container {
+    width: 100%;
+    /* 100px */
+    height: 70%;
+    /* 70px */
+    border-radius: 30px;
+    /* 10px */
+}
+
+swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #ffffff;
+    /* weiß */
+    display: flex;
+    /* flex */
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+
+}
+
+
+
+.autoplay-progress {
+    position: absolute;
+    right: 16px;
+    bottom: 16px;
+    z-index: 10;
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    color: var(--swiper-theme-color);
+
+}
+
+.autoplay-progress svg {
+    --progress: 0;
+    position: absolute;
+    /* absolute*/
+    left: 0;
+    top: 0px;
+    z-index: 10;
+    width: 100%;
+    height: 100%;
+    stroke-width: 4px;
+    stroke: var(--swiper-theme-color);
+    fill: none;
+    stroke-dashoffset: calc(125.6 * (1 - var(--progress)));
+    stroke-dasharray: 125.6;
+    /*125.6*/
+    transform: rotate(-90deg);
+
+
+}
+
+.imp {
+    background-color: rgba(0, 0, 0, 0);
+    color: #ffffff;
+    margin: 80px 285px;
+}
+
+/* css Sarah ende */
+
+
+.table {
+    background-color: rgb(54, 14, 230);
+    width: 95%;
+    height: 300px;
+    border-radius: 10px solid black;
+    overflow: scroll;
+
+}
+
+.rigts {
+    font-size: 7px;
+
+}
+
+.img-left {
+    transition: transform 0.7s ease;
+    /* Übergang für die Transformation */
+    display: block;
+    /* Block-Element, um Abstand zu vermeiden */
+    margin: 0 auto;
+    /* Zentriert das Bild */
+    width: 190px;
+}
+
+.img-left:hover {
+    transform: scale(1.1);
+    /* Vergrößerung beim Hover */
+}
+
+
+
+.img-down {
+    width: 800px;
+}
+
+
+.katalog {
+    background-color: #000000;
+}
+
+
+/* Um sicherzustellen, dass der Text nicht verschoben wird */
+.col {
+    position: relative;
+}
+
+
+
+/*Leistungen */
+
+.leistungen {
+    text-align: center;
+    align-items: center;
+
+    color: white;
+    margin-bottom: 100px;
+    margin-top: 30px;
+    background: linear-gradient(45deg, #1a2526, #0073e6);
+    border-radius: 15px;
+
+    padding: 20px;
+    width: 100%;
+    max-width: 1200px;
+    box-sizing: border-box;
+
+}
+
+.leistungen h2 {
+    color: #ffffff;
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.leistungen p {
+    font-size: clamp(17px, 1vw, 25px);
+    line-height: 2.0em;
+    font-weight: 630;
+    color: #ffffff;
+}
+
+
+
+
+
+
+
+/* WhatsUp-Button */
+
+.whatsapp-button {
+    width: 150px;
+    height: 40px;
+    background-color: rgb(67, 210, 42);
+
+    transition: transform 0.7s ease;
+    /* Übergang für die Transformation */
+
+    border-radius: 10px;
+
+}
+
+.whatsapp-button:hover {
+    transform: scale(1.1);
+    /* Vergrößerung beim Hover */
+    background-color: rgb(19, 104, 4);
+
+}
+
+@media screen and (max-width: 1223px) {
+    .whatsapp-button {
+        width: 150px;
+        height: 40px;
+        background-color: rgb(67, 210, 42);
+        transition: 1s;
+        border-radius: 10px;
+
+    }
+
+
+}

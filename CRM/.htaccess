@@ -1,0 +1,7 @@
+RewriteEngine On
+RewriteBase /AS2/CRM/
+RewriteRule ^(.*)$ - [L]
+<FilesMatch "^(config\.php|db_connect\.php)$">
+    Order Allow,Deny
+    Require all granted
+</FilesMatch>
